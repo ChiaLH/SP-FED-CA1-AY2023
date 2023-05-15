@@ -21,7 +21,7 @@
 
 li {
 	float: left; /*list items float left then style it to float 25% of the nav bar*/
-	width: 25%; /*each list items have a width of 25% of the nav bar*/
+	width: 33.3%; /*each list items have a width of 25% of the nav bar*/
 	
 }
 
@@ -45,11 +45,44 @@ li a:hover {
 	font-weight: bold;
 	font-size: 40px;
 	margin: 0;
-	margin-top: 10px;
+	margin-top: 15px;
 	text-decoration: underline;
 	
+}
+
+.myvalues {
+	font-size: 35px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+
+.miketyson {
+	float: left;
+	width: 300px;
+	margin-left: 40px;
+	display: flex;
+	margin-right: 30px;
 
 }
+
+.interview {
+	display: block;
+	
+}
+
+.myvaluetxt {
+	font-size: 23px;
+	margin-bottom: 48px;
+	margin-right: 20px;
+	padding-right: 30px;
+}
+
+
+
+
+
+
 
 
 
