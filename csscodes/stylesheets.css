@@ -121,7 +121,7 @@ ul.navigation li {
   margin-left: auto;
   margin-right: auto;
   overflow: auto; /*adds a scroll bar if content overflows*/
-  margin-top: 25px;
+  margin-top: 28px;
 }
 
 .gympicture {
@@ -146,8 +146,43 @@ ul.navigation li {
   margin-left: auto;
   margin-right: auto;
   overflow: auto; /*adds a scroll bar if content overflows*/
-  margin-top: 25px;
+  margin-top: 28px;
 }
+
+.divcontainer3:hover {
+  background-color: rgb(234, 232, 120);
+  cursor: pointer;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.divcontainer4 {
+  display: flex;  /*display div items as flex container as a row*/
+  flex-direction: row;
+  border: 2px solid #000000;
+  border-radius: 20px; 
+  width: 1100px;
+  height: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto; /*adds a scroll bar if content overflows*/
+  margin-top: 28px;
+  margin-bottom: 40px;
+}
+
+.endingline {
+  border-top: 2px solid black;
+}
+
+.divcontainer4:hover {
+  background-color: rgb(162, 247, 134);
+  cursor: pointer;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+
+
+
 
 
 
