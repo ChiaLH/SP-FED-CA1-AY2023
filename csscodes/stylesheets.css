@@ -25,7 +25,7 @@
   box-shadow: 5px 10px 18px #888888; /*5px horizontal offset, 10px vertical offset.18px blur and the color of the box shadow*/
 }
 
-ul.navigation {
+.navigation {
   list-style-type: none; /*remove the circles marking each list item*/
   display: flex; /*makes all the child li items a flexbox item so its easier to edit*/
   justify-content: space-between;/*used to evenly space out flexbox items to take up the full width of the nav bar*/
@@ -76,10 +76,6 @@ ul.navigation li {
   overflow: auto; /*adds a scroll bar if content overflows*/
 }
 
-.miketysonimg {
-  border-radius: 20px; /*image size depends on container size, if container height inc img will inc*/
-}
-
 .divitem {
   display: flex;
   flex-direction: column;
@@ -91,6 +87,7 @@ ul.navigation li {
   list-style-type: none; /*ensure list style from above overrided*/
   text-decoration-line: underline;
   text-align: left;
+  margin-bottom: 5px;
 }
 
 .myvaluescontent {
@@ -179,6 +176,72 @@ ul.navigation li {
   cursor: pointer;
   box-shadow: 5px 10px 18px #888888;
 }
+
+.divcontainer5 {
+  display: flex;  /*display div items as flex container as a row*/
+  flex-direction: row;
+  border: 2px solid #000000;
+  border-radius: 20px; 
+  width: 1100px;
+  height: 400px;/*100px more than index.html div container as this page has more content*/
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto; /*adds a scroll bar if content overflows*/
+  margin-top: 28px;
+  margin-bottom: 40px;
+}
+
+.divcontainer5:hover {
+  background-color: rgb(150, 255, 241);
+  cursor: pointer;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.divcontainer6 {
+  display: flex;  /*display div items as flex container as a row*/
+  flex-direction: row;
+  border: 2px solid #000000;
+  border-radius: 20px; 
+  width: 1100px;
+  height: 400px;/*100px more than index.html div container as this page has more content*/
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto; /*adds a scroll bar if content overflows*/
+  margin-top: 28px;
+  margin-bottom: 40px;
+}
+
+.divcontainer6:hover {
+  background-color: rgb(225, 176, 255);
+  cursor: pointer;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.divcontainer7 {
+  display: flex;  /*display div items as flex container as a row*/
+  flex-direction: row;
+  border: 2px solid #000000;
+  border-radius: 20px; 
+  width: 1100px;
+  height: 400px;/*100px more than index.html div container as this page has more content*/
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto; /*adds a scroll bar if content overflows*/
+  margin-top: 28px;
+  margin-bottom: 40px;
+}
+
+.divcontainer7:hover {
+  background-color: rgb(199, 110, 255);
+  cursor: pointer;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+
+
 
 
 
