@@ -223,7 +223,7 @@ ul.navigation li { /*each nav bar item*/
 }
 
 .divcontainer6:hover {
-  background-color: rgb(225, 176, 255);
+  background-color: rgb(227, 184, 253);
   cursor: pointer;
   box-shadow: 5px 10px 18px #888888;
   transition: 0.3s;
@@ -244,7 +244,7 @@ ul.navigation li { /*each nav bar item*/
 }
 
 .divcontainer7:hover {
-  background-color: rgb(199, 110, 255);
+  background-color: rgb(209, 136, 254);
   cursor: pointer;
   box-shadow: 5px 10px 18px #888888;
   transition: 0.3s;
