@@ -74,7 +74,7 @@ ul.navigation li { /*each nav bar item*/
   width: 1100px;
   height: 300px;
   text-align: center;
-  margin-left: auto;
+  margin-left: auto; /*margin left and right auto so that they will always have equal spacing on left and right regardless of the size of contaienr*/
   margin-right: auto;
 }
 
