@@ -2,6 +2,7 @@ First feature : Added a curved border to all my div elements to enclose each top
 Second feature : Added a box shadow to all my div elements when I hover over them
 Third feature : Added a linear gradient of 3 colors for my background color for all 3 pages
 Fourth feature : Added a CSS grayscale filter to one of my picture in the first page
-Fifth feature : Added a 2D transformation to my title when I hover to increase the width.
+Fifth feature : Added a 2D transformation to my title when I hover to increase the size by 1.1
+
 
 Github repo link : https://github.com/ChiaLH/SP-FED-CA1-AY2023
